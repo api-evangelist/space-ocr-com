@@ -64,5 +64,152 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-space-ocr-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://space-ocr.com/
+A field extraction API with built-in verification. Send a document photo with a list of field names — one POST returns typed JSON. No training, no processor setup, no SDK. Every value carries the box / quad it was read from (coordinates come from the OCR pass, not the language model), and values that fail the cross-check come back on an explicit review list — a work list, not a bare confidence score. Measured side by side against Mistral Document AI on the same photos, same schema, same grading script: field accuracy 91.1% vs 70.0%, and 16 of 463 values moved across three runs vs 100 (8 cases over 7 documents · 463 fields · 3 runs each · August 2026).
+
+**Areas:** OCR · AI · Document-Processing · Field-Extraction · API
+
+## space-ocr-com on APIs.io
+
+Everything profiled for space-ocr-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/space-ocr-com/](https://apis.io/providers/space-ocr-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (12)
+
+- [space-ocr-com Amount API](https://apis.io/apis/space-ocr-com/space-ocr-com-amount-api/) — The Amount API from space-ocr-com — 1 operation(s) for amount.
+- [space-ocr-com Create API](https://apis.io/apis/space-ocr-com/space-ocr-com-create-api/) — The Create API from space-ocr-com — 1 operation(s) for create.
+- [space-ocr-com Edit API](https://apis.io/apis/space-ocr-com/space-ocr-com-edit-api/) — The Edit API from space-ocr-com — 1 operation(s) for edit.
+- [space-ocr-com Health API](https://apis.io/apis/space-ocr-com/space-ocr-com-health-api/) — The Health API from space-ocr-com — 1 operation(s) for health.
+- [space-ocr-com Jobs API](https://apis.io/apis/space-ocr-com/space-ocr-com-jobs-api/) — The Jobs API from space-ocr-com — 2 operation(s) for jobs.
+- [space-ocr-com Ocr API](https://apis.io/apis/space-ocr-com/space-ocr-com-ocr-api/) — The Ocr API from space-ocr-com — 3 operation(s) for ocr.
+- [space-ocr-com Remove API](https://apis.io/apis/space-ocr-com/space-ocr-com-remove-api/) — The Remove API from space-ocr-com — 1 operation(s) for remove.
+- [space-ocr-com Space API](https://apis.io/apis/space-ocr-com/space-ocr-com-space-api/) — The Space API from space-ocr-com — 1 operation(s) for space.
+- [space-ocr-com Upload API](https://apis.io/apis/space-ocr-com/space-ocr-com-upload-api/) — The Upload API from space-ocr-com — 3 operation(s) for upload.
+- [space-ocr-com View API](https://apis.io/apis/space-ocr-com/space-ocr-com-view-api/) — The View API from space-ocr-com — 1 operation(s) for view.
+- [space-ocr-com Webhook API](https://apis.io/apis/space-ocr-com/space-ocr-com-webhook-api/) — The Webhook API from space-ocr-com — 2 operation(s) for webhook.
+- [space-ocr-com Webhooks API](https://apis.io/apis/space-ocr-com/space-ocr-com-webhooks-api/) — The Webhooks API from space-ocr-com — 3 operation(s) for webhooks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Space Ocr Com Agentic Access](https://apis.io/agentic-access/space-ocr-com/space-ocr-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ColumnSpec](https://apis.io/schemas/space-ocr-com/space-ocr-com-column-spec/)
+- [FieldSpec](https://apis.io/schemas/space-ocr-com/space-ocr-com-field-spec/)
+- [OcrFieldsResponse](https://apis.io/schemas/space-ocr-com/space-ocr-com-ocr-fields-response/)
+- [OcrMarkdownResponse](https://apis.io/schemas/space-ocr-com/space-ocr-com-ocr-markdown-response/)
+- [OcrTextResponse](https://apis.io/schemas/space-ocr-com/space-ocr-com-ocr-text-response/)
+- [UploadForm](https://apis.io/schemas/space-ocr-com/space-ocr-com-upload-form/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Space Ocr Com Context](https://apis.io/jsonld/space-ocr-com/space-ocr-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [space-ocr-com API Rules](https://apis.io/rules/space-ocr-com/space-ocr-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Space Ocr Com Authentication](https://apis.io/security/space-ocr-com/space-ocr-com-authentication/)
+- [Space Ocr Com Domain Security](https://apis.io/security/space-ocr-com/space-ocr-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Space Ocr Com Scopes](https://apis.io/scopes/space-ocr-com/space-ocr-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Space Ocr Com Plans Pricing](https://apis.io/plans/space-ocr-com/space-ocr-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Space Ocr Com Rate Limits](https://apis.io/rate-limits/space-ocr-com/space-ocr-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://space-ocr.com/)
+- [Documentation](https://space-ocr.com/docs/)
+- [API reference](https://space-ocr.com/api/)
+- [Pricing](https://space-ocr.com/pricing/)
+- [Sign up](https://space-ocr.com/login/)
+- [Support](https://space-ocr.com/support/)
+- [Blog](https://space-ocr.com/blog/)
+- [Terms of service](https://space-ocr.com/terms/)
+- [Privacy policy](https://space-ocr.com/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 58.8** — strong · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 56.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 18.9 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 73.2 |
+
+**Agent readiness 40.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/space-ocr-com/](https://apis.io/providers/space-ocr-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for space-ocr-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/space-ocr-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
